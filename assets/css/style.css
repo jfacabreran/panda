@@ -1,0 +1,85 @@
+/*
+Colores & tipografía: 
+Verde - #ABE188;
+Rosa - #F78E69;
+font-family: 'Raleway', sans-serif;
+*/
+
+/* Escribe tu código acá debajo */
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	font-family: 'Raleway';
+	font-size: 20px;
+	color:white;
+}
+.fondo{
+	background-color: #F78E69;
+	background-size: cover;
+	background-position: center;
+	padding: 20px 0px;
+}
+#cover1{
+	background:url('../img/uno.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 500px;
+	padding: 50px 0px;
+	filter: grayscale(100%);
+}
+#cover2{
+	background:url('../img/dos.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 500px;
+	padding: 50px 0px;
+	filter: grayscale(100%);
+}
+#cover3{
+	background:url('../img/tres.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 500px;
+	padding: 50px 0px;
+	filter: grayscale(100%);
+}
+h1{
+	font-size:45px;
+	padding-bottom: 15px;
+}
+h2{
+	font-size: 25px;
+}
+.titulo{
+	text-align: right;
+	padding: 40px;
+
+}
+
+.contenido{
+	background-color: #ABE188;
+	background-size: cover;
+	background-position: center;
+	padding:30px;	
+	text-align: center;
+}
+.about{
+	padding:30px;
+	width: 50%;
+	background-color: #F78E69;
+	margin:40px auto;
+	text-align: center;
+}
+.pic{
+	margin: 40px;
+	width: 200px; 
+	height:200px;
+	border: 10px solid white;
+}
+footer{
+	background-color: #F78E69;
+	padding: 30px 30px 20px 0px;
+	font-weight: bold;
+	text-align: right;
+}
